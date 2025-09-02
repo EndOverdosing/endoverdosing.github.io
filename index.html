@@ -13,6 +13,9 @@
 
 <body>
 
+    <div class="scroll-fade-top"></div>
+    <div class="scroll-fade-bottom"></div>
+
     <div class="theme-switcher" id="theme-switcher" title="Toggle Theme">
         <div class="sun-icon"><i class="fa-solid fa-sun"></i></div>
         <div class="moon-icon"><i class="fa-solid fa-moon"></i></div>
@@ -32,8 +35,31 @@
                 focusing on clean UI, performance, and user experience.</p>
         </section>
 
-        <section class="projects-grid">
+        <section class="about-me-section">
+            <div class="about-me-card interactive-border">
+                <div class="about-me-content">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>
+                            I got my start in development over five years ago, learning Lua and building a solid
+                            foundation in scripting and problem-solving. For the past three years, I’ve focused on web
+                            development, where I enjoy creating clean, intuitive interfaces that put the user first. I
+                            care about blending good design with reliable functionality, and I’ve recently been diving
+                            into back-end technologies to grow into a more versatile developer.
+                        </p>
+                        <p>
+                            Outside of coding, I’m passionate about men’s mental health and the value of open,
+                            supportive communities. That commitment also shows up in my professional work—I’m part of
+                            the Trust and Safety team at <a href="https://rscripts.net/" target="_blank"
+                                rel="noopener noreferrer">rscripts.net</a>, where I help maintain a safe and positive
+                            space for everyone.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="projects-grid">
             <div class="project-card interactive-border">
                 <div class="project-image">
                     <img src="https://vyla.vercel.app/images/background.png" alt="Vyla Project Screenshot">
@@ -169,8 +195,28 @@
                     </div>
                 </div>
             </div>
-
         </section>
+
+        <section class="contact-section">
+            <a href="https://discordapp.com/users/1354949208360091775" target="_blank" rel="noopener noreferrer"
+                class="contact-card interactive-border">
+                <div class="contact-card-content">
+                    <img src="https://discord.com/assets/411d8a698dd15ddf.png" alt="Discord Avatar">
+                    <div class="contact-text">
+                        <h2>Let's Connect</h2>
+                        <p>Have a question or want to collaborate?</p>
+                    </div>
+                    <div class="icon-wrapper">
+                        <i class="fa-brands fa-discord"></i>
+                    </div>
+                </div>
+            </a>
+        </section>
+
+        <div class="open-source-notice">
+            <p>Like this UI? This entire site is <a href="https://github.com/EndOverdosing/endoverdosing.github.io"
+                    target="_blank" rel="noopener noreferrer">open-source on GitHub</a>. Feel free to use it.</p>
+        </div>
     </main>
     <script src="index.js"></script>
 </body>
