@@ -1,15 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const themeSwitcher = document.getElementById('theme-switcher');
 
-    function handleScrollFade() {
-        const scrollY = window.scrollY;
-        const fadeDistance = 150;
-        const opacity = Math.min(scrollY / fadeDistance, 1);
-        document.body.style.setProperty('--top-fade-opacity', opacity.toFixed(2));
-    }
-
-    window.addEventListener('scroll', handleScrollFade, { passive: true });
-
     const savePreference = (key, value) => localStorage.setItem(key, value);
     const getPreference = (key) => localStorage.getItem(key);
 
