@@ -25,10 +25,41 @@
 
     <main class="portfolio-container">
         <section class="hero-section">
-            <img src="https://avatars.githubusercontent.com/u/223568794?v=4" alt="EndOverdosing's Avatar">
-            <h1>EndOverdosing</h1>
-            <p>Welcome to my project showcase. Here you'll find a collection of web applications and tools I've built,
-                focusing on clean UI, performance, and user experience.</p>
+            <div class="hero-content-wrapper">
+                <div class="hero-text">
+                    <div class="hero-badge interactive-border">
+                        <span>Web Developer & UI Enthusiast</span>
+                    </div>
+                    <h1 class="hero-title">
+                        EndOverdosing
+                    </h1>
+                    <p class="hero-description">
+                        Welcome to my project showcase. Here you'll find a collection of web applications and tools I've
+                        built, focusing on clean UI, performance, and user experience.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="link-button primary">
+                            View Projects <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="link-button secondary">
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/EndOverdosing" class="social-link" target="_blank"
+                            rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://discordapp.com/users/1354949208360091775" class="social-link" target="_blank"
+                            rel="noopener noreferrer" aria-label="Discord">
+                            <i class="fa-brands fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-canvas-container">
+                    <canvas id="heroCanvas"></canvas>
+                </div>
+            </div>
         </section>
 
         <section class="about-me-section">
@@ -55,7 +86,7 @@
             </div>
         </section>
 
-        <section class="projects-grid">
+        <section class="projects-grid" id="projects">
             <div class="project-card interactive-border">
                 <div class="project-image">
                     <img src="https://i.pinimg.com/736x/27/c4/ac/27c4ac10d3760c0d1292901a424fec6f.jpg"
@@ -282,7 +313,7 @@
             </div>
         </section>
 
-        <section class="contact-section">
+        <section class="contact-section" id="contact">
             <a href="https://discordapp.com/users/1354949208360091775" target="_blank" rel="noopener noreferrer"
                 class="contact-card interactive-border">
                 <div class="contact-card-content">
