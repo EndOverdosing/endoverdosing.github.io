@@ -190,14 +190,67 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
-    document.querySelectorAll('.project-card, .about-me-card, .contact-card').forEach((card, index) => {
-        card.style.animationDelay = `${0.1 + index * 0.15}s`;
+    function createProjectCard(project) {
+        const card = document.createElement('div');
+        card.className = 'project-card interactive-border';
+
+        const featuresHTML = project.features && project.features.length > 0 ?
+            `<ul class="project-features">${project.features.map(f => `<li>${f}</li>`).join('')}</ul>` :
+            '';
+
+        const linksHTML = project.links.map(link => `
+            <a href="${link.href}" class="link-button ${link.class}" target="_blank" rel="noopener noreferrer">
+                <i class="${link.icon}"></i> ${link.text}
+            </a>
+        `).join('');
+
+        card.innerHTML = `
+            <div class="project-image">
+                <img src="${project.image}" alt="${project.alt}">
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h2>${project.title}</h2>
+                    <span>${project.subtitle}</span>
+                </div>
+                <p class="project-description">${project.description}</p>
+                ${featuresHTML}
+                <div class="project-links">${linksHTML}</div>
+            </div>
+        `;
+        return card;
+    }
+
+    async function loadProjects() {
+        try {
+            const response = await fetch('projects.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const projects = await response.json();
+            const container = document.getElementById('projects');
+            container.innerHTML = '';
+            projects.forEach((project, index) => {
+                const card = createProjectCard(project);
+                card.style.animationDelay = `${0.1 + index * 0.15}s`;
+                container.appendChild(card);
+            });
+            document.querySelectorAll('.project-card').forEach(addCardListeners);
+        } catch (error) {
+            console.error("Could not load projects:", error);
+            const container = document.getElementById('projects');
+            container.innerHTML = '<p class="error-message">Failed to load projects. Please try again later.</p>';
+        }
+    }
+
+    document.querySelectorAll('.about-me-card, .contact-card').forEach((card) => {
+        addCardListeners(card);
     });
 
     document.addEventListener('mousemove', handleCursorGlow);
     document.addEventListener('mouseleave', hideCursorGlow);
-    document.querySelectorAll('.interactive-border').forEach(addCardListeners);
 
     applyTheme();
+    loadProjects();
     destroyHeroCanvas = initHeroCanvas();
 });

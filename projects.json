@@ -1,0 +1,326 @@
+[
+    {
+        "image": "https://wallpapercat.com/w/full/4/6/1/1165730-3840x2160-desktop-4k-landscape-background.jpg",
+        "alt": "Plants vs Brainrots - Live Stock Tracker",
+        "title": "Plants vs Brainrots - Live Stock Tracker",
+        "subtitle": "Live Stock Tracker for Plants vs Brainrots",
+        "description": "This is a web application that displays live in-game information for 'Plants vs Brainrots,' including the current weather and items available in the Seed and Gear shops. The UI is designed to be clean, modern, and responsive.",
+        "features": [
+            "Live Weather: Shows the current in-game weather status.",
+            "Live Shop Stock: Displays the current items and quantities in the Seed and Gear shops.",
+            "Countdown Timer: Indicates when the next shop stock rotation will occur.",
+            "Modern UI: A sleek, responsive user interface inspired by modern web design.",
+            "Light/Dark Theme: Switch between light and dark modes to suit your preference.",
+            "Auto-Refreshes: The data automatically updates at regular intervals."
+        ],
+        "links": [
+            {
+                "href": "https://soluna-pvb-stock-tracker.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Soluna-PvB-Stock-Tracker",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://vyla-games.vercel.app/images/background.jpg",
+        "alt": "Vyla Games Project Screenshot",
+        "title": "Vyla Games",
+        "subtitle": "Unblocked Gaming Platform",
+        "description": "A sleek and modern unblocked games website featuring a vast collection of popular titles, a clean user interface, and customizable themes.",
+        "features": [
+            "Vast library of unblocked games.",
+            "Sleek, modern, and responsive user interface.",
+            "Instant search functionality to quickly find games.",
+            "Light and dark theme modes for user preference.",
+            "Proxy mode to bypass network restrictions."
+        ],
+        "links": [
+            {
+                "href": "https://vyla-games.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Vyla-Games",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://p2p-communicator.vercel.app/images/background.png",
+        "alt": "P2P Communicator Project Screenshot",
+        "title": "P2P Communicator",
+        "subtitle": "Real-Time Peer-to-Peer Messaging App",
+        "description": "A browser-based peer-to-peer communication tool enabling direct, secure, and serverless messaging between users using WebRTC technology.",
+        "features": [
+            "Serverless P2P connection using WebRTC.",
+            "Instant real-time messaging between peers.",
+            "Simple, modern, and responsive interface.",
+            "Automatic peer connection generation via unique IDs.",
+            "Open-source and privacy-focused design."
+        ],
+        "links": [
+            {
+                "href": "https://p2p-communicator.vercel.app",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/P2P-Communicator",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://applescoop.org/image/wallpapers/mac/vibrant-sunset-in-the-forest-mountains-landscapes-nature-8k-top-rated-most-downloaded-free-download-wallpapers-for-macbook-pro-and-macbook-air-and-microsoft-windows-desktop-pcs-4k-07-12-2024-1733638654-hd-wallpaper.webp",
+        "alt": "Youtube Video Scraper Project Screenshot",
+        "title": "Youtube Video Scraper",
+        "subtitle": "YouTube Video Info & Download API",
+        "description": "A simple Flask API to fetch YouTube video information and provide downloadable links for specific video qualities.",
+        "features": [
+            "Fully automatic video downloading.",
+            "Fetches video title, thumbnail, and available video-only formats.",
+            "Downloads videos in selected resolutions (MP4 format).",
+            "Handles merging of video and audio streams automatically.",
+            "Returns JSON responses for easy integration."
+        ],
+        "links": [
+            {
+                "href": "https://youtube-video-scraper.onrender.com/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Youtube-Video-Scraper",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://i.pinimg.com/736x/27/c4/ac/27c4ac10d3760c0d1292901a424fec6f.jpg",
+        "alt": "PWA-Generator Project Screenshot",
+        "title": "PWA-Generator",
+        "subtitle": "Instant PWA Creator",
+        "description": "A tool that generates an installable Progressive Web App from any website URL. It automatically creates an icon and allows full customization of names, colors, and display modes.",
+        "features": [
+            "Automatic icon generation (no uploads).",
+            "Live icon color customization.",
+            "Short, permanent, and shareable PWA links.",
+            "Creates a true \"app\" experience, not a shortcut."
+        ],
+        "links": [
+            {
+                "href": "https://pwa-forger.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/PWA-Generator",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://cyron.vercel.app/static/assets/banner.png",
+        "alt": "Cyron Project Screenshot",
+        "title": "Cyron",
+        "subtitle": "Discover visuals, instantly.",
+        "description": "Cyron is a sleek, privacy-respecting image search engine that delivers stunning visuals, instantly. It leverages a network of public SearX instances to fetch image results without tracking the user, wrapped in a modern, dynamic user interface.",
+        "features": [
+            "Privacy-Focused Backend: Aggregates results from multiple SearX instances, ensuring user privacy and anonymity.",
+            "Modern UI: A clean, glassmorphism-inspired design with light and dark themes.",
+            "Advanced Search Filters: Filter results by image size, time range, and a toggle for Safe Search."
+        ],
+        "links": [
+            {
+                "href": "https://cyron.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Cyron",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://i.pinimg.com/736x/aa/ae/34/aaae347da62f801309233e3fabb4c17a.jpg",
+        "alt": "Dev Tools Inspector Project Screenshot",
+        "title": "Dev Tools Inspector",
+        "subtitle": "Bookmarklet Dev Toolkit",
+        "description": "A powerful, lightweight developer toolkit that runs as a bookmarklet on any webpage. Perfect for mobile debugging and situations where traditional dev tools are unavailable.",
+        "features": [
+            "Live Console & JS Execution.",
+            "DOM & CSS Rule Inspector.",
+            "Network & Application Loggers.",
+            "Fully draggable and resizable panel."
+        ],
+        "links": [
+            {
+                "href": "https://dev-tools-inspector.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Dev-Tools",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://vyla.vercel.app/images/background.png",
+        "alt": "Vyla Project Screenshot",
+        "title": "Vyla",
+        "subtitle": "Ad-Free Movie & Show Streaming",
+        "description": "A fast, clean way to stream free movies and shows from multiple sources in one place. The site itself has zero ads, pop-ups, or trackers.",
+        "features": [
+            "Netflix-Style UI with full-screen overlays.",
+            "Massive source pool for reliable streaming.",
+            "No sign-up required for instant watching.",
+            "Full PWA support for a native app experience."
+        ],
+        "links": [
+            {
+                "href": "https://vyla.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://discord.gg/5eqRhKeywG",
+                "text": "Discord",
+                "icon": "fa-brands fa-discord",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://raw.githubusercontent.com/EndOverdosing/Ovala/refs/heads/main/public/images/banner.png",
+        "alt": "Ovala Project Screenshot",
+        "title": "Ovala",
+        "subtitle": "Sophisticated Web Proxy",
+        "description": "A sophisticated web proxy that allows users to bypass internet censorship and access blocked content freely. Built on the powerful Node Unblocker engine.",
+        "features": [],
+        "links": [
+            {
+                "href": "https://ovala.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Ovala",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            },
+            {
+                "href": "https://discord.gg/zaCCvUtndf",
+                "text": "Discord",
+                "icon": "fa-brands fa-discord",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://vexa-ai.vercel.app/images/dark%20background.png",
+        "alt": "Vexa-AI Project Screenshot",
+        "title": "Vexa-AI",
+        "subtitle": "Interactive AI Chatbot",
+        "description": "A sophisticated AI chatbot designed for real-time interaction and task assistance. It offers smart, personalized conversations and is constantly learning to improve user service.",
+        "features": [],
+        "links": [
+            {
+                "href": "https://vexa-ai.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            }
+        ]
+    },
+    {
+        "image": "https://raw.githubusercontent.com/EndOverdosing/Rylox/refs/heads/main/static/images/github-banner.png",
+        "alt": "Rylox Project Screenshot",
+        "title": "Rylox",
+        "subtitle": "SoundCloud Downloader",
+        "description": "A streamlined web app that lets you download SoundCloud audio tracks as MP3 files. Choose your preferred quality and save tracks directly to your device with ease.",
+        "features": [],
+        "links": [
+            {
+                "href": "https://rylox.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Rylox",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://soluna-script.vercel.app/images/thumbnail.png",
+        "alt": "Soluna Project Screenshot",
+        "title": "Soluna",
+        "subtitle": "Keyless Script Hub",
+        "description": "A central hub for over 20+ keyless scripts, providing easy access and a streamlined experience for users looking for various script utilities.",
+        "features": [],
+        "links": [
+            {
+                "href": "https://soluna-script.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "http://discord.gg/2hxKqA3b7b",
+                "text": "Discord",
+                "icon": "fa-brands fa-discord",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://raw.githubusercontent.com/EndOverdosing/Monitor-Uptime/refs/heads/main/static/images/github-banner.png",
+        "alt": "Monitor Uptime Project Screenshot",
+        "title": "Monitor Uptime",
+        "subtitle": "GitHub Actions Utility",
+        "description": "An open-source uptime monitoring and status page project powered by GitHub Actions. It's an efficient way to track the availability of your services without external dependencies.",
+        "features": [],
+        "links": [
+            {
+                "href": "https://github.com/EndOverdosing/Monitor-Uptime",
+                "text": "View on GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    }
+]
