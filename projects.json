@@ -29,35 +29,29 @@
         ]
     },
     {
-        "image": "https://vyla-games.vercel.app/images/background.jpg",
-        "alt": "Vyla Games Project Screenshot",
-        "title": "Vyla Games",
-        "subtitle": "Unblocked Gaming Platform",
-        "description": "A sleek and modern unblocked games website featuring a vast collection of popular titles, a clean user interface, and customizable themes.",
+        "image": "https://raw.githubusercontent.com/EndOverdosing/Koyso-Game-Scraper/refs/heads/main/images/github-banner.jpg",
+        "alt": "Koyso Game Scraper Screenshot",
+        "title": "Koyso Game Scraper",
+        "subtitle": "Game Scraper with Final Download Links",
+        "description": "A Python script to scrape games from Koyso, view details, and retrieve final download links with optional automatic downloading.",
         "features": [
-            "Vast library of unblocked games.",
-            "Sleek, modern, and responsive user interface.",
-            "Instant search functionality to quickly find games.",
-            "Light and dark theme modes for user preference.",
-            "Proxy mode to bypass network restrictions."
+            "Scrape all games from Koyso with pagination support.",
+            "Search games by title or keywords.",
+            "Retrieve game details including title, description, file size, and cover image.",
+            "Generate final download links using timestamp and secret key.",
+            "Optional automatic downloading of selected games."
         ],
         "links": [
             {
-                "href": "https://vyla-games.vercel.app/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/Vyla-Games",
+                "href": "https://github.com/EndOverdosing/Koyso-Game-Scraper",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
-                "class": "secondary"
+                "class": "primary"
             }
         ]
     },
     {
-        "image": "https://p2p-communicator.vercel.app/images/background.png",
+        "image": "https://raw.githubusercontent.com/EndOverdosing/P2P-Communicator/refs/heads/main/images/background.png",
         "alt": "P2P Communicator Project Screenshot",
         "title": "P2P Communicator",
         "subtitle": "Real-Time Peer-to-Peer Messaging App",
@@ -193,7 +187,7 @@
         ]
     },
     {
-        "image": "https://vyla.vercel.app/images/background.png",
+        "image": "https://vyla.vercel.app/images/thumbnail.png",
         "alt": "Vyla Project Screenshot",
         "title": "Vyla",
         "subtitle": "Ad-Free Movie & Show Streaming",
