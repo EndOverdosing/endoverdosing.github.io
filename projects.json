@@ -29,9 +29,9 @@
         ]
     },
     {
-        "image": "https://raw.githubusercontent.com/EndOverdosing/Koyso-Game-Scraper/refs/heads/main/images/github-banner.jpg",
-        "alt": "Koyso Game Scraper Screenshot",
-        "title": "Koyso Game Scraper",
+        "image": "https://vyla-games.vercel.app/static/images/github-banner.png",
+        "alt": "Vyla Games Screenshot",
+        "title": "Vyla Games",
         "subtitle": "Game Scraper with Final Download Links",
         "description": "A Python script to scrape games from Koyso, view details, and retrieve final download links with optional automatic downloading.",
         "features": [
@@ -43,7 +43,7 @@
         ],
         "links": [
             {
-                "href": "https://github.com/EndOverdosing/Koyso-Game-Scraper",
+                "href": "https://github.com/EndOverdosing/Vyla-Games",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
                 "class": "primary"
