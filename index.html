@@ -4,110 +4,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Showcase</title>
+    <title>EndOverdosing — Portfolio</title>
     <meta name="description" content="A showcase of projects by EndOverdosing, including Vyla, Ovala, Rylox, and more.">
+
     <link rel="icon" href="https://avatars.githubusercontent.com/u/223568794?v=4" type="image/png">
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="index.css">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="EndOverdosing">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="theme-color" content="#000000">
+
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://avatars.githubusercontent.com/u/223568794?v=4">
 </head>
 
 <body>
-    <div class="theme-switcher" id="theme-switcher" title="Toggle Theme">
-        <div class="sun-icon"><i class="fa-solid fa-sun"></i></div>
-        <div class="moon-icon"><i class="fa-solid fa-moon"></i></div>
-    </div>
-
-    <div class="blurry-orbs">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-
     <main class="portfolio-container">
+        <nav class="top-nav">
+            <div class="nav-logo"><img src="https://avatars.githubusercontent.com/u/223568794?v=4" alt="EndOverdosing"
+                    class="logo-img"></div>
+            <div class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact" class="nav-cta">Contact</a>
+            </div>
+            <div class="nav-right">
+                <button class="theme-btn" id="theme-switcher" title="Toggle Theme" aria-label="Toggle theme">
+                    <div class="sun-icon"><i class="fa-solid fa-sun"></i></div>
+                    <div class="moon-icon"><i class="fa-solid fa-moon"></i></div>
+                </button>
+            </div>
+        </nav>
+
         <section class="hero-section">
-            <div class="hero-content-wrapper">
-                <div class="hero-text">
-                    <div class="hero-badge interactive-border">
-                        <span>Web Developer & UI Enthusiast</span>
-                    </div>
-                    <h1 class="hero-title">
-                        EndOverdosing
-                    </h1>
-                    <p class="hero-description">
-                        Welcome to my project showcase. Here you'll find a collection of web applications and tools I've
-                        built, focusing on clean UI, performance, and user experience.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="link-button primary">
-                            View Projects <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a href="#contact" class="link-button secondary">
-                            Contact Me
-                        </a>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://github.com/EndOverdosing" class="social-link" target="_blank"
-                            rel="noopener noreferrer" aria-label="GitHub">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="https://discordapp.com/users/1354949208360091775" class="social-link" target="_blank"
-                            rel="noopener noreferrer" aria-label="Discord">
-                            <i class="fa-brands fa-discord"></i>
-                        </a>
+            <div class="hero-map-bg">
+                <canvas id="mapCanvas"></canvas>
+                <div class="map-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-pill">
+                    <span class="pill-dot"></span>
+                    <span>Available for work</span>
+                </div>
+                <h1 class="hero-title">EndOverdosing</h1>
+                <p class="hero-sub">Web Developer & UI Enthusiast</p>
+                <p class="hero-desc">Clean UI. Real Performance. Thoughtful Experience.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">
+                        View Projects <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://github.com/EndOverdosing" target="_blank" rel="noopener noreferrer"
+                        class="btn-ghost">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="card-header">
+                    <span class="eta-badge"><i class="fa-solid fa-location-dot"></i> Santa Clarita, CA</span>
+                    <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+                </div>
+                <div class="card-profile-row">
+                    <img src="https://avatars.githubusercontent.com/u/223568794?v=4" alt="EndOverdosing"
+                        class="profile-img">
+                    <div class="profile-info">
+                        <span class="profile-name">EndOverdosing</span>
+                        <span class="profile-role">Full-Stack Developer</span>
                     </div>
                 </div>
-                <div class="hero-canvas-container">
-                    <canvas id="heroCanvas"></canvas>
+                <div class="card-stats-row">
+                    <div class="stat">
+                        <span class="stat-num">5+</span>
+                        <span class="stat-label">Years coding</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">3+</span>
+                        <span class="stat-label">Years web dev</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">15+</span>
+                        <span class="stat-label">Projects shipped</span>
+                    </div>
+                </div>
+                <div class="card-actions-row">
+                    <a href="https://discordapp.com/users/1354949208360091775" target="_blank" rel="noopener noreferrer"
+                        class="card-action-btn">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                    <a href="https://github.com/EndOverdosing" target="_blank" rel="noopener noreferrer"
+                        class="card-action-btn">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
                 </div>
             </div>
         </section>
 
-        <section class="about-me-section">
-            <div class="about-me-card interactive-border">
-                <div class="about-me-content">
-                    <div class="about-text">
-                        <h2>About Me</h2>
-                        <p>
-                            I got my start in development over five years ago, learning Lua and building a solid
-                            foundation in scripting and problem-solving. For the past three years, I’ve focused on web
-                            development, where I enjoy creating clean, intuitive interfaces that put the user first. I
-                            care about blending good design with reliable functionality, and I’ve recently been diving
-                            into back-end technologies to grow into a more versatile developer.
-                        </p>
-                        <p>
-                            Outside of coding, I’m passionate about men’s mental health and the value of open,
-                            supportive communities. That commitment also shows up in my professional work—I’m part of
-                            the Trust and Safety team at <a href="https://rscripts.net/" target="_blank"
-                                rel="noopener noreferrer">rscripts.net</a>, where I help maintain a safe and positive
-                            space for everyone.
-                        </p>
+        <section class="about-section" id="about">
+            <div class="section-header">
+                <span class="section-label">About</span>
+                <h2>The developer behind the work</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-main">
+                    <p>I got my start in development over five years ago, learning Lua and building a solid foundation
+                        in scripting and problem-solving. For the past three years, I've focused on web development,
+                        where I enjoy creating clean, intuitive interfaces that put the user first.</p>
+                    <p>I care about blending good design with reliable functionality, and I've recently been diving into
+                        back-end technologies to grow into a more versatile developer.</p>
+                    <p>Outside of coding, I'm passionate about men's mental health and the value of open, supportive
+                        communities. That commitment also shows up in my professional work—I'm part of the Trust and
+                        Safety team at <a href="https://rscripts.net/" target="_blank"
+                            rel="noopener noreferrer">rscripts.net</a>.</p>
+                </div>
+                <div class="skills-panel">
+                    <div class="skills-header">Tech stack</div>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Lua</span>
+                        <span>Node.js</span>
+                        <span>UI/UX</span>
+                        <span>Git</span>
+                        <span>REST APIs</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="projects-grid" id="projects"></section>
+        <section class="projects-section" id="projects">
+            <div class="section-header">
+                <span class="section-label">Projects</span>
+                <h2>Things I've built</h2>
+            </div>
+            <div class="projects-grid" id="projects-grid"></div>
+        </section>
 
         <section class="contact-section" id="contact">
-            <a href="https://discordapp.com/users/1354949208360091775" target="_blank" rel="noopener noreferrer"
-                class="contact-card interactive-border">
-                <div class="contact-card-content">
-                    <img src="images/discord-pfp.png" alt="Discord Avatar">
-                    <div class="contact-text">
-                        <h2>Let's Connect</h2>
-                        <p>Have a question or want to collaborate?</p>
-                    </div>
-                    <div class="icon-wrapper">
-                        <i class="fa-brands fa-discord"></i>
-                    </div>
+            <div class="contact-inner">
+                <div class="contact-text">
+                    <span class="section-label">Contact</span>
+                    <h2>Let's build something together</h2>
+                    <p>Have a question or want to collaborate? Reach out on Discord.</p>
                 </div>
-            </a>
+                <a href="https://discordapp.com/users/1354949208360091775" target="_blank" rel="noopener noreferrer"
+                    class="discord-btn">
+                    <i class="fa-brands fa-discord"></i>
+                    Message on Discord
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
         </section>
 
-        <div class="open-source-notice">
-            <p>Like this UI? This entire site is <a href="https://github.com/EndOverdosing/endoverdosing.github.io"
-                    target="_blank" rel="noopener noreferrer">open-source on GitHub</a>. Feel free to use it.</p>
-        </div>
+        <footer class="site-footer">
+            <p>Like this UI? It's <a href="https://github.com/EndOverdosing/endoverdosing.github.io" target="_blank"
+                    rel="noopener noreferrer">open-source on GitHub</a>.</p>
+        </footer>
     </main>
 
     <script src="index.js"></script>

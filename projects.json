@@ -1,163 +1,19 @@
 [
     {
-        "image": "https://wallpapercat.com/w/full/4/6/1/1165730-3840x2160-desktop-4k-landscape-background.jpg",
-        "alt": "Plants vs Brainrots - Live Stock Tracker",
-        "title": "Plants vs Brainrots - Live Stock Tracker",
-        "subtitle": "Live Stock Tracker for Plants vs Brainrots",
-        "description": "This is a web application that displays live in-game information for 'Plants vs Brainrots,' including the current weather and items available in the Seed and Gear shops. The UI is designed to be clean, modern, and responsive.",
+        "image": "https://raw.githubusercontent.com/EndOverdosing/HTML.cafe-Discord-Webhook-Hunter/refs/heads/main/static/assets/banner.png",
+        "alt": "HTML.cafe Discord Webhook Hunter",
+        "title": "HTML.cafe Discord Webhook Hunter",
+        "subtitle": "Webhook Privacy Tool",
+        "description": "Tired of people on HTML.cafe logging you on their webhook without consent? Find and remove exposed webhooks before they're abused.",
         "features": [
-            "Live Weather: Shows the current in-game weather status.",
-            "Live Shop Stock: Displays the current items and quantities in the Seed and Gear shops.",
-            "Countdown Timer: Indicates when the next shop stock rotation will occur.",
-            "Modern UI: A sleek, responsive user interface inspired by modern web design.",
-            "Light/Dark Theme: Switch between light and dark modes to suit your preference.",
-            "Auto-Refreshes: The data automatically updates at regular intervals."
+            "Scans HTML.cafe pages for exposed Discord webhooks.",
+            "Identifies webhooks that may be logging visitors without consent.",
+            "Helps remove or invalidate exposed webhooks proactively.",
+            "Privacy-focused tooling for the HTML.cafe community."
         ],
         "links": [
             {
-                "href": "https://soluna-pvb-stock-tracker.vercel.app/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/Soluna-PvB-Stock-Tracker",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://raw.githubusercontent.com/EndOverdosing/P2P-Communicator/refs/heads/main/images/background.png",
-        "alt": "P2P Communicator Project Screenshot",
-        "title": "P2P Communicator",
-        "subtitle": "Real-Time Peer-to-Peer Messaging App",
-        "description": "A browser-based peer-to-peer communication tool enabling direct, secure, and serverless messaging between users using WebRTC technology.",
-        "features": [
-            "Serverless P2P connection using WebRTC.",
-            "Instant real-time messaging between peers.",
-            "Simple, modern, and responsive interface.",
-            "Automatic peer connection generation via unique IDs.",
-            "Open-source and privacy-focused design."
-        ],
-        "links": [
-            {
-                "href": "https://p2p-communicator.vercel.app",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/P2P-Communicator",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://applescoop.org/image/wallpapers/mac/vibrant-sunset-in-the-forest-mountains-landscapes-nature-8k-top-rated-most-downloaded-free-download-wallpapers-for-macbook-pro-and-macbook-air-and-microsoft-windows-desktop-pcs-4k-07-12-2024-1733638654-hd-wallpaper.webp",
-        "alt": "Youtube Video Scraper Project Screenshot",
-        "title": "Youtube Video Scraper",
-        "subtitle": "YouTube Video Info & Download API",
-        "description": "A simple Flask API to fetch YouTube video information and provide downloadable links for specific video qualities.",
-        "features": [
-            "Fully automatic video downloading.",
-            "Fetches video title, thumbnail, and available video-only formats.",
-            "Downloads videos in selected resolutions (MP4 format).",
-            "Handles merging of video and audio streams automatically.",
-            "Returns JSON responses for easy integration."
-        ],
-        "links": [
-            {
-                "href": "https://youtube-video-scraper.onrender.com/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/Youtube-Video-Scraper",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://i.pinimg.com/736x/27/c4/ac/27c4ac10d3760c0d1292901a424fec6f.jpg",
-        "alt": "PWA-Generator Project Screenshot",
-        "title": "PWA-Generator",
-        "subtitle": "Instant PWA Creator",
-        "description": "A tool that generates an installable Progressive Web App from any website URL. It automatically creates an icon and allows full customization of names, colors, and display modes.",
-        "features": [
-            "Automatic icon generation (no uploads).",
-            "Live icon color customization.",
-            "Short, permanent, and shareable PWA links.",
-            "Creates a true \"app\" experience, not a shortcut."
-        ],
-        "links": [
-            {
-                "href": "https://pwa-forger.vercel.app/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/PWA-Generator",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://cyron.vercel.app/static/assets/banner.png",
-        "alt": "Cyron Project Screenshot",
-        "title": "Cyron",
-        "subtitle": "Discover visuals, instantly.",
-        "description": "Cyron is a sleek, privacy-respecting image search engine that delivers stunning visuals, instantly. It leverages a network of public SearX instances to fetch image results without tracking the user, wrapped in a modern, dynamic user interface.",
-        "features": [
-            "Privacy-Focused Backend: Aggregates results from multiple SearX instances, ensuring user privacy and anonymity.",
-            "Modern UI: A clean, glassmorphism-inspired design with light and dark themes.",
-            "Advanced Search Filters: Filter results by image size, time range, and a toggle for Safe Search."
-        ],
-        "links": [
-            {
-                "href": "https://cyron.vercel.app/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/Cyron",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://i.pinimg.com/736x/aa/ae/34/aaae347da62f801309233e3fabb4c17a.jpg",
-        "alt": "Dev Tools Inspector Project Screenshot",
-        "title": "Dev Tools Inspector",
-        "subtitle": "Bookmarklet Dev Toolkit",
-        "description": "A powerful, lightweight developer toolkit that runs as a bookmarklet on any webpage. Perfect for mobile debugging and situations where traditional dev tools are unavailable.",
-        "features": [
-            "Live Console & JS Execution.",
-            "DOM & CSS Rule Inspector.",
-            "Network & Application Loggers.",
-            "Fully draggable and resizable panel."
-        ],
-        "links": [
-            {
-                "href": "https://dev-tools-inspector.vercel.app/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/Dev-Tools",
+                "href": "https://github.com/EndOverdosing/HTML.cafe-Discord-Webhook-Hunter",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
                 "class": "secondary"
@@ -192,39 +48,17 @@
         ]
     },
     {
-        "image": "https://vyla-games.vercel.app/static/images/github-banner.png",
-        "alt": "Vyla Games Screenshot",
-        "title": "Vyla Games",
-        "subtitle": "Game Scraper with Final Download Links",
-        "description": "A Python script to scrape games from Koyso, view details, and retrieve final download links with optional automatic downloading.",
-        "features": [
-            "Scrape all games from Koyso with pagination support.",
-            "Search games by title or keywords.",
-            "Retrieve game details including title, description, file size, and cover image.",
-            "Generate final download links using timestamp and secret key.",
-            "Optional automatic downloading of selected games."
-        ],
-        "links": [
-            {
-                "href": "https://github.com/EndOverdosing/Vyla-Games",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "primary"
-            }
-        ]
-    },
-    {
         "image": "https://vyla.vercel.app/images/thumbnail.png",
         "alt": "Vyla API",
         "title": "Vyla API",
         "subtitle": "Headless RESTful API for TMDB",
-        "description": "A headless, backend-first RESTful API providing access to TMDB's comprehensive movie and TV show database. Vyla is designed to be used as a standalone backend service that powers your custom frontend applications.",
+        "description": "A headless, backend-first RESTful API providing access to TMDB's comprehensive movie and TV show database. Designed to be a standalone backend service that powers custom frontend applications.",
         "features": [
-            "Backend-First Architecture: Pure API service, bring your own frontend",
-            "Production-Ready Hosted API: Use https://vyla-api.vercel.app/api immediately",
-            "34 Streaming Sources: Multiple player options including 4K sources",
-            "RESTful Design: Clean API paths with consistent response formats",
-            "CORS Enabled: Works with any frontend framework (React, Vue, Angular, etc.)"
+            "Backend-First Architecture: Pure API service, bring your own frontend.",
+            "Production-Ready Hosted API: Use https://vyla-api.vercel.app/api immediately.",
+            "34 Streaming Sources: Multiple player options including 4K sources.",
+            "RESTful Design: Clean API paths with consistent response formats.",
+            "CORS Enabled: Works with any frontend framework (React, Vue, Angular, etc.)."
         ],
         "links": [
             {
@@ -246,20 +80,139 @@
         "alt": "Vyla API Bot",
         "title": "Vyla API Bot",
         "subtitle": "Discord Bot for TMDB",
-        "description": "A super user-friendly Discord bot for discovering and watching movies and TV shows. No IDs, no complicated commands - just simple menus and clicks.",
+        "description": "A super user-friendly Discord bot for discovering and watching movies and TV shows. No IDs, no complicated commands — just simple menus and clicks.",
         "features": [
-            "No IDs Required - Search by name, select from menus, done",
-            "Interactive Menus - All results in dropdown menus",
-            "One-Click Watching - Streaming links as clickable buttons",
-            "Smart Search - Find any movie or show by name",
-            "Genre Discovery - Browse all genres with dropdown selection",
-            "TV Show Navigation - Easy season and episode selection",
-            "34 Streaming Sources - Multiple options for every title",
-            "Help System - Built-in /help command explains everything"
+            "No IDs Required — search by name, select from menus, done.",
+            "Interactive Menus — all results in dropdown menus.",
+            "One-Click Watching — streaming links as clickable buttons.",
+            "Smart Search — find any movie or show by name.",
+            "Genre Discovery — browse all genres with dropdown selection.",
+            "TV Show Navigation — easy season and episode selection.",
+            "34 Streaming Sources — multiple options for every title.",
+            "Help System — built-in /help command explains everything."
         ],
         "links": [
             {
                 "href": "https://github.com/EndOverdosing/Vyla-API-bot",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://vyla-games.vercel.app/static/images/github-banner.png",
+        "alt": "Vyla Games Screenshot",
+        "title": "Vyla Games",
+        "subtitle": "Game Discovery & Download API",
+        "description": "A modern Flask-based game discovery and download API. Scrapes game data from koyso.com and provides a responsive web interface with full JSON API support.",
+        "features": [
+            "Scrape all games from Koyso with pagination support.",
+            "Search games by title or keywords.",
+            "Retrieve game details including title, description, file size, and cover image.",
+            "Generate final download links using timestamp and secret key.",
+            "Optional automatic downloading of selected games."
+        ],
+        "links": [
+            {
+                "href": "https://github.com/EndOverdosing/Vyla-Games",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "primary"
+            }
+        ]
+    },
+    {
+        "image": "https://raw.githubusercontent.com/EndOverdosing/Vexa-AI/refs/heads/main/images/banner.png",
+        "alt": "Vexa-AI Project Screenshot",
+        "title": "Vexa-AI",
+        "subtitle": "Free AI REST API",
+        "description": "Free REST API for text and image generation. No account, no API key, no setup required — just send a request and get a response.",
+        "features": [
+            "Free text and image generation with no authentication required.",
+            "No account or API key needed.",
+            "Simple REST endpoints for easy integration.",
+            "MIT licensed and open source."
+        ],
+        "links": [
+            {
+                "href": "https://vexa-ai.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Vexa-AI",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://soluna-script.vercel.app/images/thumbnail.png",
+        "alt": "Soluna Project Screenshot",
+        "title": "Soluna",
+        "subtitle": "Keyless Script Hub",
+        "description": "A central hub for over 20+ keyless scripts, providing easy access and a streamlined experience for users looking for various script utilities.",
+        "features": [],
+        "links": [
+            {
+                "href": "https://soluna-script.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "http://discord.gg/2hxKqA3b7b",
+                "text": "Discord",
+                "icon": "fa-brands fa-discord",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://raw.githubusercontent.com/EndOverdosing/Palyra/refs/heads/main/public/images/banner-rounded.png",
+        "alt": "Palyra Project Screenshot",
+        "title": "Palyra",
+        "subtitle": "Privacy-First P2P Messaging Platform",
+        "description": "A modern peer-to-peer messaging platform that combines end-to-end encrypted messaging, video calls, and server-based chat rooms. Built with privacy and security at its core.",
+        "features": [
+            "End-to-end encrypted peer-to-peer messaging.",
+            "Video calls with no intermediary servers.",
+            "Server-based chat rooms for group communication.",
+            "Privacy and security as foundational design principles.",
+            "MIT licensed and open source."
+        ],
+        "links": [
+            {
+                "href": "https://github.com/EndOverdosing/Palyra",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://cyron.vercel.app/static/assets/banner.png",
+        "alt": "Cyron Project Screenshot",
+        "title": "Cyron",
+        "subtitle": "Privacy-Focused Meta Search Engine",
+        "description": "A privacy-focused meta search engine API powered by SearX. Returns structured results across web, images, videos, news, music, files, social media, science, and IT — with full filtering support.",
+        "features": [
+            "Privacy-Focused Backend: Aggregates results from multiple SearX instances, ensuring user privacy and anonymity.",
+            "Modern UI: A clean, glassmorphism-inspired design with light and dark themes.",
+            "Advanced Search Filters: Filter results by image size, time range, and a toggle for Safe Search."
+        ],
+        "links": [
+            {
+                "href": "https://cyron.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Cyron",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
                 "class": "secondary"
@@ -295,18 +248,30 @@
         ]
     },
     {
-        "image": "https://vexa-ai.vercel.app/images/dark%20background.png",
-        "alt": "Vexa-AI Project Screenshot",
-        "title": "Vexa-AI",
-        "subtitle": "Interactive AI Chatbot",
-        "description": "A sophisticated AI chatbot designed for real-time interaction and task assistance. It offers smart, personalized conversations and is constantly learning to improve user service.",
-        "features": [],
+        "image": "https://camo.githubusercontent.com/0cbdc68d5f880ac77e567d55f4c0c9b860c5248891729e38998f9c9412735843/68747470733a2f2f6170706c6573636f6f702e6f72672f696d6167652f77616c6c7061706572732f6d61632f76696272616e742d73756e7365742d696e2d7468652d666f726573742d6d6f756e7461696e732d6c616e647363617065732d6e61747572652d386b2d746f702d72617465642d6d6f73742d646f776e6c6f616465642d667265652d646f776e6c6f61642d77616c6c7061706572732d666f722d6d6163626f6f6b2d70726f2d616e642d6d6163626f6f6b2d6169722d616e642d6d6963726f736f66742d77696e646f77732d6465736b746f702d7063732d346b2d30372d31322d323032342d313733333633383635342d68642d77616c6c70617065722e77656270",
+        "alt": "Youtube Video Scraper Project Screenshot",
+        "title": "Youtube Video Scraper",
+        "subtitle": "YouTube Video Info & Download API",
+        "description": "A simple Flask API to fetch YouTube video information and provide downloadable links. Includes a mechanism to bypass YouTube's rate-limiting and bot detection using browser cookies.",
+        "features": [
+            "Fully automatic video downloading.",
+            "Fetches video title, thumbnail, and available video-only formats.",
+            "Downloads videos in selected resolutions (MP4 format).",
+            "Handles merging of video and audio streams automatically.",
+            "Returns JSON responses for easy integration."
+        ],
         "links": [
             {
-                "href": "https://vexa-ai.vercel.app/",
+                "href": "https://youtube-video-scraper.onrender.com/",
                 "text": "Live Site",
                 "icon": "fa-solid fa-arrow-up-right-from-square",
                 "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Youtube-Video-Scraper",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
             }
         ]
     },
@@ -333,23 +298,84 @@
         ]
     },
     {
-        "image": "https://soluna-script.vercel.app/images/thumbnail.png",
-        "alt": "Soluna Project Screenshot",
-        "title": "Soluna",
-        "subtitle": "Keyless Script Hub",
-        "description": "A central hub for over 20+ keyless scripts, providing easy access and a streamlined experience for users looking for various script utilities.",
-        "features": [],
+        "image": "https://i.pinimg.com/736x/aa/ae/34/aaae347da62f801309233e3fabb4c17a.jpg",
+        "alt": "Dev Tools Inspector Project Screenshot",
+        "title": "Dev Tools Inspector",
+        "subtitle": "Bookmarklet Dev Toolkit",
+        "description": "A powerful, lightweight developer toolkit that runs as a bookmarklet on any webpage. Perfect for mobile debugging and situations where traditional dev tools are unavailable.",
+        "features": [
+            "Live Console & JS Execution.",
+            "DOM & CSS Rule Inspector.",
+            "Network & Application Loggers.",
+            "Fully draggable and resizable panel."
+        ],
         "links": [
             {
-                "href": "https://soluna-script.vercel.app/",
+                "href": "https://dev-tools-inspector.vercel.app/",
                 "text": "Live Site",
                 "icon": "fa-solid fa-arrow-up-right-from-square",
                 "class": "primary"
             },
             {
-                "href": "http://discord.gg/2hxKqA3b7b",
-                "text": "Discord",
-                "icon": "fa-brands fa-discord",
+                "href": "https://github.com/EndOverdosing/Dev-Tools",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://i.pinimg.com/736x/27/c4/ac/27c4ac10d3760c0d1292901a424fec6f.jpg",
+        "alt": "PWA-Generator Project Screenshot",
+        "title": "PWA-Generator",
+        "subtitle": "Instant PWA Creator",
+        "description": "A tool that generates an installable Progressive Web App from any website URL. It automatically creates an icon and allows full customization of names, colors, and display modes.",
+        "features": [
+            "Automatic icon generation (no uploads).",
+            "Live icon color customization.",
+            "Short, permanent, and shareable PWA links.",
+            "Creates a true \"app\" experience, not a shortcut."
+        ],
+        "links": [
+            {
+                "href": "https://pwa-forger.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/PWA-Generator",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
+        "image": "https://wallpapercat.com/w/full/4/6/1/1165730-3840x2160-desktop-4k-landscape-background.jpg",
+        "alt": "Soluna PvB Stock Tracker",
+        "title": "Plants vs Brainrots - Live Stock Tracker",
+        "subtitle": "Live Stock Tracker for Plants vs Brainrots",
+        "description": "This is a web application that displays live in-game information for 'Plants vs Brainrots,' including the current weather and items available in the Seed and Gear shops. The UI is designed to be clean, modern, and responsive.",
+        "features": [
+            "Live Weather: Shows the current in-game weather status.",
+            "Live Shop Stock: Displays the current items and quantities in the Seed and Gear shops.",
+            "Countdown Timer: Indicates when the next shop stock rotation will occur.",
+            "Modern UI: A sleek, responsive user interface inspired by modern web design.",
+            "Light/Dark Theme: Switch between light and dark modes to suit your preference.",
+            "Auto-Refreshes: The data automatically updates at regular intervals."
+        ],
+        "links": [
+            {
+                "href": "https://soluna-pvb-stock-tracker.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Soluna-PvB-Stock-Tracker",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
                 "class": "secondary"
             }
         ]
@@ -358,8 +384,8 @@
         "image": "https://raw.githubusercontent.com/EndOverdosing/Monitor-Uptime/refs/heads/main/static/images/github-banner.png",
         "alt": "Monitor Uptime Project Screenshot",
         "title": "Monitor Uptime",
-        "subtitle": "GitHub Actions Utility",
-        "description": "An open-source uptime monitoring and status page project powered by GitHub Actions. It's an efficient way to track the availability of your services without external dependencies.",
+        "subtitle": "GitHub Actions Uptime Monitor",
+        "description": "An open-source uptime monitoring and status page project powered by GitHub Actions. An efficient way to track the availability of your services without external dependencies.",
         "features": [],
         "links": [
             {
