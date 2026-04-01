@@ -1,27 +1,6 @@
 [
     {
-        "image": "https://raw.githubusercontent.com/EndOverdosing/HTML.cafe-Discord-Webhook-Hunter/refs/heads/main/static/assets/banner.png",
-        "alt": "HTML.cafe Discord Webhook Hunter",
-        "title": "HTML.cafe Discord Webhook Hunter",
-        "subtitle": "Webhook Privacy Tool",
-        "description": "Tired of people on HTML.cafe logging you on their webhook without consent? Find and remove exposed webhooks before they're abused.",
-        "features": [
-            "Scans HTML.cafe pages for exposed Discord webhooks.",
-            "Identifies webhooks that may be logging visitors without consent.",
-            "Helps remove or invalidate exposed webhooks proactively.",
-            "Privacy-focused tooling for the HTML.cafe community."
-        ],
-        "links": [
-            {
-                "href": "https://github.com/EndOverdosing/HTML.cafe-Discord-Webhook-Hunter",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://vyla.vercel.app/images/thumbnail.png",
+        "image": "https://vyla.pages.dev/images/thumbnail.png",
         "alt": "Vyla Project Screenshot",
         "title": "Vyla",
         "subtitle": "Ad-Free Movie & Show Streaming",
@@ -34,7 +13,7 @@
         ],
         "links": [
             {
-                "href": "https://vyla.vercel.app/",
+                "href": "https://vyla.pages.dev/",
                 "text": "Live Site",
                 "icon": "fa-solid fa-arrow-up-right-from-square",
                 "class": "primary"
@@ -48,7 +27,7 @@
         ]
     },
     {
-        "image": "https://vyla.vercel.app/images/thumbnail.png",
+        "image": "https://vyla.pages.dev/images/thumbnail.png",
         "alt": "Vyla API",
         "title": "Vyla API",
         "subtitle": "Headless RESTful API for TMDB",
@@ -136,7 +115,7 @@
         ],
         "links": [
             {
-                "href": "https://vexa-ai.vercel.app/",
+                "href": "https://vexa-ai.pages.dev/",
                 "text": "Live Site",
                 "icon": "fa-solid fa-arrow-up-right-from-square",
                 "class": "primary"
@@ -158,16 +137,10 @@
         "features": [],
         "links": [
             {
-                "href": "https://soluna-script.vercel.app/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
                 "href": "http://discord.gg/2hxKqA3b7b",
                 "text": "Discord",
                 "icon": "fa-brands fa-discord",
-                "class": "secondary"
+                "class": "primary"
             }
         ]
     },
@@ -220,7 +193,7 @@
         ]
     },
     {
-        "image": "https://raw.githubusercontent.com/EndOverdosing/Ovala/refs/heads/main/public/images/banner.png",
+        "image": "https://raw.githubusercontent.com/EndOverdosing/Ovala/refs/heads/main/images/banner.png",
         "alt": "Ovala Project Screenshot",
         "title": "Ovala",
         "subtitle": "Sophisticated Web Proxy",
@@ -298,6 +271,27 @@
         ]
     },
     {
+        "image": "https://raw.githubusercontent.com/EndOverdosing/HTML.cafe-Discord-Webhook-Hunter/refs/heads/main/static/assets/banner.png",
+        "alt": "HTML.cafe Discord Webhook Hunter",
+        "title": "HTML.cafe Discord Webhook Hunter",
+        "subtitle": "Webhook Privacy Tool",
+        "description": "Tired of people on HTML.cafe logging you on their webhook without consent? Find and remove exposed webhooks before they're abused.",
+        "features": [
+            "Scans HTML.cafe pages for exposed Discord webhooks.",
+            "Identifies webhooks that may be logging visitors without consent.",
+            "Helps remove or invalidate exposed webhooks proactively.",
+            "Privacy-focused tooling for the HTML.cafe community."
+        ],
+        "links": [
+            {
+                "href": "https://github.com/EndOverdosing/HTML.cafe-Discord-Webhook-Hunter",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
         "image": "https://i.pinimg.com/736x/aa/ae/34/aaae347da62f801309233e3fabb4c17a.jpg",
         "alt": "Dev Tools Inspector Project Screenshot",
         "title": "Dev Tools Inspector",
@@ -345,35 +339,6 @@
             },
             {
                 "href": "https://github.com/EndOverdosing/PWA-Generator",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://wallpapercat.com/w/full/4/6/1/1165730-3840x2160-desktop-4k-landscape-background.jpg",
-        "alt": "Soluna PvB Stock Tracker",
-        "title": "Plants vs Brainrots - Live Stock Tracker",
-        "subtitle": "Live Stock Tracker for Plants vs Brainrots",
-        "description": "This is a web application that displays live in-game information for 'Plants vs Brainrots,' including the current weather and items available in the Seed and Gear shops. The UI is designed to be clean, modern, and responsive.",
-        "features": [
-            "Live Weather: Shows the current in-game weather status.",
-            "Live Shop Stock: Displays the current items and quantities in the Seed and Gear shops.",
-            "Countdown Timer: Indicates when the next shop stock rotation will occur.",
-            "Modern UI: A sleek, responsive user interface inspired by modern web design.",
-            "Light/Dark Theme: Switch between light and dark modes to suit your preference.",
-            "Auto-Refreshes: The data automatically updates at regular intervals."
-        ],
-        "links": [
-            {
-                "href": "https://soluna-pvb-stock-tracker.vercel.app/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/Soluna-PvB-Stock-Tracker",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
                 "class": "secondary"
