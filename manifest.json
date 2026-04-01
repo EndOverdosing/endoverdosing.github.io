@@ -10,12 +10,12 @@
     "orientation": "portrait",
     "icons": [
         {
-            "src": "https://avatars.githubusercontent.com/u/223568794?v=4",
+            "src": "images/discord-pfp.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "https://avatars.githubusercontent.com/u/223568794?v=4",
+            "src": "images/discord-pfp.png",
             "sizes": "512x512",
             "type": "image/png"
         }
