@@ -129,6 +129,34 @@
         ]
     },
     {
+        "image": "https://raw.githubusercontent.com/EndOverdosing/Vexa-AI/refs/heads/main/images/banner.png",
+        "alt": "Vexa-AI Project Screenshot",
+        "title": "Vexa Chat",
+        "subtitle": "Free AI Chat",
+        "description": "A modern AI chat application with image generation capabilities, built with Firebase authentication and Cloudinary storage.",
+        "features": [
+            "Interactive chat interface with AI models supporting text conversations with markdown formatting and code highlighting.",
+            "Image generation with style presets (Spring, Caricature, Watercolor, etc.) and discover prompts.",
+            "User authentication with Firebase, saving chat history and preferences.",
+            "Chat history management with recent chats, search functionality, and ability to start new conversations.",
+            "Customizable settings with theme selection (light/dark/system), font size adjustment, default model selection, and data controls."
+        ],
+        "links": [
+            {
+                "href": "https://vexa-chat.pages.dev/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "primary"
+            },
+            {
+                "href": "https://github.com/EndOverdosing/Vexa-Chat",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
         "image": "https://soluna-script.vercel.app/images/thumbnail.png",
         "alt": "Soluna Project Screenshot",
         "title": "Soluna",
@@ -193,7 +221,7 @@
         ]
     },
     {
-        "image": "https://raw.githubusercontent.com/EndOverdosing/Ovala/refs/heads/main/images/banner.png",
+        "image": "https://ovala.pages.dev/images/banner.png",
         "alt": "Ovala Project Screenshot",
         "title": "Ovala",
         "subtitle": "Sophisticated Web Proxy",
@@ -201,7 +229,7 @@
         "features": [],
         "links": [
             {
-                "href": "https://ovala.vercel.app/",
+                "href": "https://ovala.pages.dev/",
                 "text": "Live Site",
                 "icon": "fa-solid fa-arrow-up-right-from-square",
                 "class": "primary"

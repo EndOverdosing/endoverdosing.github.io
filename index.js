@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     async function fetchGreeting() {
         try {
-            const response = await fetch('https://vexa-ai.pages.dev/query?q=Give me a casual greet message like "Hello, how\'s your day" - nothing but the greet message, include no other text' + ' BUT MAKE IT RANDOM');
+            const response = await fetch('https://vexa-ai.pages.dev/query?q=Give me a casual greet message like Hello, how\'s your day - nothing but the greet message, include no other text' + ' BUT MAKE IT RANDOM/PERSONAL AND INCLIUDE ZERO FORMATTING');
             if (!response.ok) throw new Error('Failed to fetch greeting');
             const data = await response.json();
             return data.success ? data.response : 'Welcome!';
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchContactMessage() {
         try {
-            const response = await fetch('https://vexa-ai.pages.dev/query?q=Give me a casual collaboration or contact message like "Have a project in mind or want to collaborate? Let\'s talk" - nothing but the message, include no other text' + ' BUT MAKE IT RANDOM');
+            const response = await fetch('https://vexa-ai.pages.dev/query?q=Give me a casual collaboration or contact message like Have a project in mind or want to collaborate? Let\'s talk - nothing but the message, include no other text' + ' BUT MAKE IT RANDOM/PERSONAL AND INCLIUDE ZERO FORMATTING');
             if (!response.ok) throw new Error('Failed to fetch contact message');
             const data = await response.json();
             return data.success ? data.response : 'Have a project in mind? Let\'s talk!';
