@@ -28,51 +28,26 @@
     },
     {
         "image": "https://vyla.pages.dev/images/thumbnail.png",
-        "alt": "Vyla API",
-        "title": "Vyla API",
-        "subtitle": "Headless RESTful API for TMDB",
-        "description": "A headless, backend-first RESTful API providing access to TMDB's comprehensive movie and TV show database. Designed to be a standalone backend service that powers custom frontend applications.",
+        "alt": "Vyla Player API",
+        "title": "Vyla Player API",
+        "subtitle": "Cloudflare Pages API for TMDB",
+        "description": "A Cloudflare Pages API for scraping and streaming movies & TV shows via TMDB ID. Aggregates sources from 8 providers, proxies streams to handle CORS, and serves a zero-UI embedded player.",
         "features": [
-            "Backend-First Architecture: Pure API service, bring your own frontend.",
-            "Production-Ready Hosted API: Use https://vyla-api.vercel.app/api immediately.",
-            "34 Streaming Sources: Multiple player options including 4K sources.",
-            "RESTful Design: Clean API paths with consistent response formats.",
-            "CORS Enabled: Works with any frontend framework (React, Vue, Angular, etc.)."
+            "Fetches streaming sources for movies using a TMDB ID by scraping multiple providers in real time.",
+            "Retrieves TV episode streams by season and episode, enabling precise episode-level playback sourcing.",
+            "Provides a CORS-compliant proxy with support for header injection and m3u8 URL rewriting for smooth streaming.",
+            "Enables direct media file downloads from resolved video URLs with optional filename control.",
+            "Returns structured metadata for downloadable media, including file information without initiating the download."
         ],
         "links": [
             {
-                "href": "https://vyla-api.vercel.app",
+                "href": "https://vyla.mintlify.app",
                 "text": "Live Demo",
                 "icon": "fa-solid fa-rocket",
                 "class": "primary"
             },
             {
-                "href": "https://github.com/EndOverdosing/Vyla-API",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://raw.githubusercontent.com/EndOverdosing/Vyla-API-Bot/refs/heads/main/images/thumbnail.png",
-        "alt": "Vyla API Bot",
-        "title": "Vyla API Bot",
-        "subtitle": "Discord Bot for TMDB",
-        "description": "A super user-friendly Discord bot for discovering and watching movies and TV shows. No IDs, no complicated commands — just simple menus and clicks.",
-        "features": [
-            "No IDs Required — search by name, select from menus, done.",
-            "Interactive Menus — all results in dropdown menus.",
-            "One-Click Watching — streaming links as clickable buttons.",
-            "Smart Search — find any movie or show by name.",
-            "Genre Discovery — browse all genres with dropdown selection.",
-            "TV Show Navigation — easy season and episode selection.",
-            "34 Streaming Sources — multiple options for every title.",
-            "Help System — built-in /help command explains everything."
-        ],
-        "links": [
-            {
-                "href": "https://github.com/EndOverdosing/Vyla-API-bot",
+                "href": "https://github.com/EndOverdosing/Vyla-Player-API",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
                 "class": "secondary"
@@ -81,8 +56,8 @@
     },
     {
         "image": "https://vyla-games.vercel.app/static/images/github-banner.png",
-        "alt": "Vyla Games Screenshot",
-        "title": "Vyla Games",
+        "alt": "Vyla Games API Screenshot",
+        "title": "Vyla Games API",
         "subtitle": "Game Discovery & Download API",
         "description": "A modern Flask-based game discovery and download API. Scrapes game data from koyso.com and provides a responsive web interface with full JSON API support.",
         "features": [
@@ -102,6 +77,33 @@
         ]
     },
     {
+        "image": "https://pyla.vercel.app/images/banner.png",
+        "alt": "Pyla Screenshot",
+        "title": "Pyla",
+        "subtitle": "Game Discovery & Download API",
+        "description": "Pyla Games - Modern game discovery powered by the Pyla Games API",
+        "features": [
+            "Scrape all games from Koyso with pagination support.",
+            "Search games by title or keywords.",
+            "Retrieve game details including title, description, file size, and cover image.",
+            "Generate final download links using timestamp and secret key.",
+            "Optional automatic downloading of selected games.",
+            "The site provides a genre-based game discovery system with dynamically loaded collections and skeleton loading for smooth performance.",
+            "It includes a real-time search bar that lets users instantly find games without leaving the page.",
+            "A fullscreen overlay menu offers quick navigation to all major pages in a mobile-friendly layout.",
+            "Games open in an interactive modal viewer with details, bookmarking, and drag-based controls.",
+            "An embedded iframe game launcher allows users to play online games with fullscreen and new-tab options."
+        ],
+        "links": [
+            {
+                "href": "https://pyla.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
         "image": "https://raw.githubusercontent.com/EndOverdosing/Vexa-AI/refs/heads/main/images/banner.png",
         "alt": "Vexa-AI Project Screenshot",
         "title": "Vexa-AI",
@@ -115,15 +117,15 @@
         ],
         "links": [
             {
-                "href": "https://vexa-ai.pages.dev/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
                 "href": "https://github.com/EndOverdosing/Vexa-AI",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
+                "class": "primary"
+            },
+            {
+                "href": "https://vexa-ai.pages.dev/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
                 "class": "secondary"
             }
         ]
@@ -187,6 +189,12 @@
         ],
         "links": [
             {
+                "href": "https://palyra.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "secondary"
+            },
+            {
                 "href": "https://github.com/EndOverdosing/Palyra",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
@@ -207,15 +215,15 @@
         ],
         "links": [
             {
-                "href": "https://cyron.vercel.app/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
                 "href": "https://github.com/EndOverdosing/Cyron",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
+                "class": "primary"
+            },
+            {
+                "href": "https://cyron.vercel.app/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
                 "class": "secondary"
             }
         ]
@@ -340,33 +348,6 @@
             },
             {
                 "href": "https://github.com/EndOverdosing/Dev-Tools",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://i.pinimg.com/736x/27/c4/ac/27c4ac10d3760c0d1292901a424fec6f.jpg",
-        "alt": "PWA-Generator Project Screenshot",
-        "title": "PWA-Generator",
-        "subtitle": "Instant PWA Creator",
-        "description": "A tool that generates an installable Progressive Web App from any website URL. It automatically creates an icon and allows full customization of names, colors, and display modes.",
-        "features": [
-            "Automatic icon generation (no uploads).",
-            "Live icon color customization.",
-            "Short, permanent, and shareable PWA links.",
-            "Creates a true \"app\" experience, not a shortcut."
-        ],
-        "links": [
-            {
-                "href": "https://pwa-forger.vercel.app/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/PWA-Generator",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
                 "class": "secondary"
