@@ -55,7 +55,7 @@
         ]
     },
     {
-        "image": "https://vyla-games.vercel.app/static/images/github-banner.png",
+        "image": "https://raw.githubusercontent.com/pyla-games/frontend/refs/heads/main/images/banner.png",
         "alt": "Vyla Games API Screenshot",
         "title": "Vyla Games API",
         "subtitle": "Game Discovery & Download API",
@@ -77,7 +77,7 @@
         ]
     },
     {
-        "image": "https://pyla.vercel.app/images/banner.png",
+        "image": "https://raw.githubusercontent.com/pyla-games/frontend/refs/heads/main/images/banner.png",
         "alt": "Pyla Screenshot",
         "title": "Pyla",
         "subtitle": "Game Discovery & Download API",
@@ -96,7 +96,7 @@
         ],
         "links": [
             {
-                "href": "https://pyla.vercel.app/",
+                "href": "https://pyla-games.pages.dev/",
                 "text": "Live Site",
                 "icon": "fa-solid fa-arrow-up-right-from-square",
                 "class": "secondary"
@@ -104,7 +104,7 @@
         ]
     },
     {
-        "image": "https://raw.githubusercontent.com/EndOverdosing/Vexa-AI/refs/heads/main/images/banner.png",
+        "image": "https://raw.githubusercontent.com/vexa-intelligence/ai/refs/heads/main/public/assets/banner.png",
         "alt": "Vexa-AI Project Screenshot",
         "title": "Vexa-AI",
         "subtitle": "Free AI REST API",
@@ -117,7 +117,7 @@
         ],
         "links": [
             {
-                "href": "https://github.com/EndOverdosing/Vexa-AI",
+                "href": "https://github.com/vexa-intelligence/ai",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
                 "class": "primary"
@@ -131,7 +131,7 @@
         ]
     },
     {
-        "image": "https://raw.githubusercontent.com/EndOverdosing/Vexa-AI/refs/heads/main/images/banner.png",
+        "image": "https://raw.githubusercontent.com/vexa-intelligence/ai/refs/heads/main/public/assets/banner.png",
         "alt": "Vexa-AI Project Screenshot",
         "title": "Vexa Chat",
         "subtitle": "Free AI Chat",
@@ -151,7 +151,7 @@
                 "class": "primary"
             },
             {
-                "href": "https://github.com/EndOverdosing/Vexa-Chat",
+                "href": "https://github.com/vexa-intelligence/chat",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
                 "class": "secondary"
@@ -203,7 +203,7 @@
         ]
     },
     {
-        "image": "https://cyron.vercel.app/static/assets/banner.png",
+        "image": "https://raw.githubusercontent.com/EndOverdosing/Cyron/refs/heads/main/static/assets/banner.png",
         "alt": "Cyron Project Screenshot",
         "title": "Cyron",
         "subtitle": "Privacy-Focused Meta Search Engine",
@@ -221,7 +221,7 @@
                 "class": "primary"
             },
             {
-                "href": "https://cyron.vercel.app/",
+                "href": "https://cyron.pages.dev/",
                 "text": "Live Site",
                 "icon": "fa-solid fa-arrow-up-right-from-square",
                 "class": "secondary"
