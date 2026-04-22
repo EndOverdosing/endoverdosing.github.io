@@ -203,6 +203,32 @@
         ]
     },
     {
+        "image": "https://raw.githubusercontent.com/EndOverdosing/Soundboard-API/refs/heads/main/public/assets/banner.png",
+        "alt": "Soundboard API Project Screenshot",
+        "title": "Soundboard API",
+        "subtitle": "Zero-Hardcoded REST API",
+        "description": "A zero-hardcoded REST API built on Cloudflare Pages Functions that dynamically sources all sound data from the genizy/soundboard GitHub repository.",
+        "features": [
+            "Zero-Hardcoded: All sound data is dynamically sourced from the genizy/soundboard GitHub repository.",
+            "Cloudflare Pages Functions: Built on Cloudflare Pages Functions for fast and reliable API responses.",
+            "Dynamic Sound Data: All sound data is dynamically sourced from the genizy/soundboard GitHub repository."
+        ],
+        "links": [
+            {
+                "href": "https://github.com/EndOverdosing/Soundboard-API",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "primary"
+            },
+            {
+                "href": "https://soundboard-api.pages.dev/",
+                "text": "Live Site",
+                "icon": "fa-solid fa-arrow-up-right-from-square",
+                "class": "secondary"
+            }
+        ]
+    },
+    {
         "image": "https://raw.githubusercontent.com/EndOverdosing/Cyron/refs/heads/main/static/assets/banner.png",
         "alt": "Cyron Project Screenshot",
         "title": "Cyron",
