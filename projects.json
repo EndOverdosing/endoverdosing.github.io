@@ -28,8 +28,8 @@
     },
     {
         "image": "https://vyla.pages.dev/images/thumbnail.png",
-        "alt": "Vyla Player API",
-        "title": "Vyla Player API",
+        "alt": "Vyla API",
+        "title": "Vyla API",
         "subtitle": "Cloudflare Pages API for TMDB",
         "description": "A Cloudflare Pages API for scraping and streaming movies & TV shows via TMDB ID. Aggregates sources from 8 providers, proxies streams to handle CORS, and serves a zero-UI embedded player.",
         "features": [
@@ -311,21 +311,15 @@
         ]
     },
     {
-        "image": "https://raw.githubusercontent.com/EndOverdosing/Rylox/refs/heads/main/static/images/github-banner.png",
-        "alt": "Rylox Project Screenshot",
-        "title": "Rylox",
+        "image": "https://i0.wp.com/linkedinheaders.com/wp-content/uploads/2018/02/mountain-clouds-header.jpg?fit=1584%2C396&ssl=1",
+        "alt": "Soundcloak Project Screenshot",
+        "title": "soundcloak",
         "subtitle": "SoundCloud Downloader",
-        "description": "A streamlined web app that lets you download SoundCloud audio tracks as MP3 files. Choose your preferred quality and save tracks directly to your device with ease.",
+        "description": "A JSON REST API wrapper for soundcloak — a SoundCloud privacy frontend. Deploy it to Cloudflare Pages in minutes.",
         "features": [],
         "links": [
             {
-                "href": "https://rylox.vercel.app/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/Rylox",
+                "href": "https://github.com/EndOverdosing/soundcloak",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
                 "class": "secondary"
