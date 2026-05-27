@@ -1,76 +1,14 @@
 [
     {
         "image": "https://vyla.pages.dev/images/thumbnail.png",
-        "alt": "Vyla Project Screenshot",
-        "title": "Vyla",
-        "subtitle": "Ad-Free Movie & Show Streaming",
-        "description": "A fast, clean way to stream free movies and shows from multiple sources in one place. The site itself has zero ads, pop-ups, or trackers.",
-        "features": [
-            "Netflix-Style UI with full-screen overlays.",
-            "Massive source pool for reliable streaming.",
-            "No sign-up required for instant watching.",
-            "Full PWA support for a native app experience."
-        ],
+        "alt": "Vyla Entertainment Project Screenshot",
+        "title": "Vyla Entertainment",
+        "subtitle": "A unified entertainment ecosystem for streaming and media discovery. Personal use · Multi-source aggregation · Edge-powered APIs",
+        "description": "Vyla Entertainment is an integrated media system that connects multiple streaming providers through a single interface. It centralizes movies and TV shows by routing requests across distributed APIs and metadata sources.",
         "links": [
             {
-                "href": "https://vyla.pages.dev/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://discord.gg/5eqRhKeywG",
-                "text": "Discord",
-                "icon": "fa-brands fa-discord",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://vyla.pages.dev/images/thumbnail.png",
-        "alt": "Vyla API",
-        "title": "Vyla API",
-        "subtitle": "Cloudflare Pages API for TMDB",
-        "description": "A Cloudflare Pages API for scraping and streaming movies & TV shows via TMDB ID. Aggregates sources from 8 providers, proxies streams to handle CORS, and serves a zero-UI embedded player.",
-        "features": [
-            "Fetches streaming sources for movies using a TMDB ID by scraping multiple providers in real time.",
-            "Retrieves TV episode streams by season and episode, enabling precise episode-level playback sourcing.",
-            "Provides a CORS-compliant proxy with support for header injection and m3u8 URL rewriting for smooth streaming.",
-            "Enables direct media file downloads from resolved video URLs with optional filename control.",
-            "Returns structured metadata for downloadable media, including file information without initiating the download."
-        ],
-        "links": [
-            {
-                "href": "https://vyla.mintlify.app",
-                "text": "Live Demo",
-                "icon": "fa-solid fa-rocket",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/Vyla-Player-API",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://raw.githubusercontent.com/pyla-games/frontend/refs/heads/main/images/banner.png",
-        "alt": "Vyla Games API Screenshot",
-        "title": "Vyla Games API",
-        "subtitle": "Game Discovery & Download API",
-        "description": "A modern Flask-based game discovery and download API. Scrapes game data from koyso.com and provides a responsive web interface with full JSON API support.",
-        "features": [
-            "Scrape all games from Koyso with pagination support.",
-            "Search games by title or keywords.",
-            "Retrieve game details including title, description, file size, and cover image.",
-            "Generate final download links using timestamp and secret key.",
-            "Optional automatic downloading of selected games."
-        ],
-        "links": [
-            {
-                "href": "https://github.com/EndOverdosing/Vyla-Games",
-                "text": "GitHub",
+                "href": "https://github.com/vyla-entertainment/",
+                "text": "Github",
                 "icon": "fa-brands fa-github",
                 "class": "primary"
             }
@@ -79,27 +17,15 @@
     {
         "image": "https://raw.githubusercontent.com/pyla-games/frontend/refs/heads/main/images/banner.png",
         "alt": "Pyla Screenshot",
-        "title": "Pyla",
+        "title": "Pyla Games",
         "subtitle": "Game Discovery & Download API",
         "description": "Pyla Games - Modern game discovery powered by the Pyla Games API",
-        "features": [
-            "Scrape all games from Koyso with pagination support.",
-            "Search games by title or keywords.",
-            "Retrieve game details including title, description, file size, and cover image.",
-            "Generate final download links using timestamp and secret key.",
-            "Optional automatic downloading of selected games.",
-            "The site provides a genre-based game discovery system with dynamically loaded collections and skeleton loading for smooth performance.",
-            "It includes a real-time search bar that lets users instantly find games without leaving the page.",
-            "A fullscreen overlay menu offers quick navigation to all major pages in a mobile-friendly layout.",
-            "Games open in an interactive modal viewer with details, bookmarking, and drag-based controls.",
-            "An embedded iframe game launcher allows users to play online games with fullscreen and new-tab options."
-        ],
         "links": [
             {
-                "href": "https://pyla-games.pages.dev/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "secondary"
+                "href": "https://github.com/orgs/pyla-games",
+                "text": "GitHub",
+                "icon": "fa-brands fa-github",
+                "class": "primary"
             }
         ]
     },
@@ -107,54 +33,14 @@
         "image": "https://raw.githubusercontent.com/vexa-intelligence/ai/refs/heads/main/public/assets/banner.png",
         "alt": "Vexa-AI Project Screenshot",
         "title": "Vexa-AI",
-        "subtitle": "Free AI REST API",
-        "description": "Free REST API for text and image generation. No account, no API key, no setup required — just send a request and get a response.",
-        "features": [
-            "Free text and image generation with no authentication required.",
-            "No account or API key needed.",
-            "Simple REST endpoints for easy integration.",
-            "MIT licensed and open source."
-        ],
+        "subtitle": "Free REST API for text and image generation. No account, no API key, no setup.",
+        "description": "Vexa Intelligence is an AI system that connects multiple text and image generation models through a single interface. It automatically routes requests to the best available model based on speed, quality, and availability.",
         "links": [
             {
-                "href": "https://github.com/vexa-intelligence/ai",
+                "href": "https://github.com/vexa-intelligence",
                 "text": "GitHub",
                 "icon": "fa-brands fa-github",
                 "class": "primary"
-            },
-            {
-                "href": "https://vexa-ai.pages.dev/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://raw.githubusercontent.com/vexa-intelligence/ai/refs/heads/main/public/assets/banner.png",
-        "alt": "Vexa-AI Project Screenshot",
-        "title": "Vexa Chat",
-        "subtitle": "Free AI Chat",
-        "description": "A modern AI chat application with image generation capabilities, built with Firebase authentication and Cloudinary storage.",
-        "features": [
-            "Interactive chat interface with AI models supporting text conversations with markdown formatting and code highlighting.",
-            "Image generation with style presets (Spring, Caricature, Watercolor, etc.) and discover prompts.",
-            "User authentication with Firebase, saving chat history and preferences.",
-            "Chat history management with recent chats, search functionality, and ability to start new conversations.",
-            "Customizable settings with theme selection (light/dark/system), font size adjustment, default model selection, and data controls."
-        ],
-        "links": [
-            {
-                "href": "https://vexa-chat.pages.dev/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/vexa-intelligence/chat",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
             }
         ]
     },
@@ -164,7 +50,6 @@
         "title": "Soluna",
         "subtitle": "Keyless Script Hub",
         "description": "A central hub for over 20+ keyless scripts, providing easy access and a streamlined experience for users looking for various script utilities.",
-        "features": [],
         "links": [
             {
                 "href": "http://discord.gg/2hxKqA3b7b",
@@ -180,13 +65,6 @@
         "title": "Palyra",
         "subtitle": "Privacy-First P2P Messaging Platform",
         "description": "A modern peer-to-peer messaging platform that combines end-to-end encrypted messaging, video calls, and server-based chat rooms. Built with privacy and security at its core.",
-        "features": [
-            "End-to-end encrypted peer-to-peer messaging.",
-            "Video calls with no intermediary servers.",
-            "Server-based chat rooms for group communication.",
-            "Privacy and security as foundational design principles.",
-            "MIT licensed and open source."
-        ],
         "links": [
             {
                 "href": "https://palyra.vercel.app/",
@@ -208,11 +86,6 @@
         "title": "Soundboard API",
         "subtitle": "Zero-Hardcoded REST API",
         "description": "A zero-hardcoded REST API built on Cloudflare Pages Functions that dynamically sources all sound data from the genizy/soundboard GitHub repository.",
-        "features": [
-            "Zero-Hardcoded: All sound data is dynamically sourced from the genizy/soundboard GitHub repository.",
-            "Cloudflare Pages Functions: Built on Cloudflare Pages Functions for fast and reliable API responses.",
-            "Dynamic Sound Data: All sound data is dynamically sourced from the genizy/soundboard GitHub repository."
-        ],
         "links": [
             {
                 "href": "https://github.com/EndOverdosing/Soundboard-API",
@@ -234,11 +107,6 @@
         "title": "Cyron",
         "subtitle": "Privacy-Focused Meta Search Engine",
         "description": "A privacy-focused meta search engine API powered by SearX. Returns structured results across web, images, videos, news, music, files, social media, science, and IT — with full filtering support.",
-        "features": [
-            "Privacy-Focused Backend: Aggregates results from multiple SearX instances, ensuring user privacy and anonymity.",
-            "Modern UI: A clean, glassmorphism-inspired design with light and dark themes.",
-            "Advanced Search Filters: Filter results by image size, time range, and a toggle for Safe Search."
-        ],
         "links": [
             {
                 "href": "https://github.com/EndOverdosing/Cyron",
@@ -260,7 +128,6 @@
         "title": "Ovala",
         "subtitle": "Sophisticated Web Proxy",
         "description": "A sophisticated web proxy that allows users to bypass internet censorship and access blocked content freely. Built on the powerful Node Unblocker engine.",
-        "features": [],
         "links": [
             {
                 "href": "https://ovala.pages.dev/",
@@ -288,13 +155,6 @@
         "title": "Youtube Video Scraper",
         "subtitle": "YouTube Video Info & Download API",
         "description": "A simple Flask API to fetch YouTube video information and provide downloadable links. Includes a mechanism to bypass YouTube's rate-limiting and bot detection using browser cookies.",
-        "features": [
-            "Fully automatic video downloading.",
-            "Fetches video title, thumbnail, and available video-only formats.",
-            "Downloads videos in selected resolutions (MP4 format).",
-            "Handles merging of video and audio streams automatically.",
-            "Returns JSON responses for easy integration."
-        ],
         "links": [
             {
                 "href": "https://youtube-video-scraper.onrender.com/",
@@ -316,7 +176,6 @@
         "title": "soundcloak",
         "subtitle": "SoundCloud Downloader",
         "description": "A JSON REST API wrapper for soundcloak — a SoundCloud privacy frontend. Deploy it to Cloudflare Pages in minutes.",
-        "features": [],
         "links": [
             {
                 "href": "https://github.com/EndOverdosing/soundcloak",
@@ -332,59 +191,10 @@
         "title": "HTML.cafe Discord Webhook Hunter",
         "subtitle": "Webhook Privacy Tool",
         "description": "Tired of people on HTML.cafe logging you on their webhook without consent? Find and remove exposed webhooks before they're abused.",
-        "features": [
-            "Scans HTML.cafe pages for exposed Discord webhooks.",
-            "Identifies webhooks that may be logging visitors without consent.",
-            "Helps remove or invalidate exposed webhooks proactively.",
-            "Privacy-focused tooling for the HTML.cafe community."
-        ],
         "links": [
             {
                 "href": "https://github.com/EndOverdosing/HTML.cafe-Discord-Webhook-Hunter",
                 "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://i.pinimg.com/736x/aa/ae/34/aaae347da62f801309233e3fabb4c17a.jpg",
-        "alt": "Dev Tools Inspector Project Screenshot",
-        "title": "Dev Tools Inspector",
-        "subtitle": "Bookmarklet Dev Toolkit",
-        "description": "A powerful, lightweight developer toolkit that runs as a bookmarklet on any webpage. Perfect for mobile debugging and situations where traditional dev tools are unavailable.",
-        "features": [
-            "Live Console & JS Execution.",
-            "DOM & CSS Rule Inspector.",
-            "Network & Application Loggers.",
-            "Fully draggable and resizable panel."
-        ],
-        "links": [
-            {
-                "href": "https://dev-tools-inspector.vercel.app/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/Dev-Tools",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://raw.githubusercontent.com/EndOverdosing/Monitor-Uptime/refs/heads/main/static/images/github-banner.png",
-        "alt": "Monitor Uptime Project Screenshot",
-        "title": "Monitor Uptime",
-        "subtitle": "GitHub Actions Uptime Monitor",
-        "description": "An open-source uptime monitoring and status page project powered by GitHub Actions. An efficient way to track the availability of your services without external dependencies.",
-        "features": [],
-        "links": [
-            {
-                "href": "https://github.com/EndOverdosing/Monitor-Uptime",
-                "text": "View on GitHub",
                 "icon": "fa-brands fa-github",
                 "class": "secondary"
             }
