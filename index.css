@@ -1,8 +1,8 @@
 :root {
-    --bg: #ffffff;
-    --fg: #252525;
-    --muted: #696969;
-    --border: #f1f1f1;
+    --bg: #000000;
+    --fg: #ffffff;
+    --muted: #c9c9c9;
+    --border: #282828;
     --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -42,11 +42,12 @@ a {
 .nav {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 1.25rem 0;
     z-index: 50;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    width: 70%;
+    margin: 0 auto;
 }
 
 .nav-container {
@@ -219,6 +220,11 @@ a {
     background: var(--border);
     overflow: hidden;
     margin-bottom: 1.25rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 45%);
+    mask-image: linear-gradient(to top, transparent 0%, black 45%);
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .project-image img {
@@ -313,6 +319,8 @@ a {
 
     .nav {
         padding: 1rem 0;
+        width: 100%;
+        border: none;
     }
 
     .hero {

@@ -1,6 +1,6 @@
 [
     {
-        "image": "https://vyla.pages.dev/images/thumbnail.png",
+        "image": "https://vyla.pages.dev/assets/images/thumbnail.png",
         "alt": "Vyla Entertainment Project Screenshot",
         "title": "Vyla Entertainment",
         "subtitle": "A unified entertainment ecosystem for streaming and media discovery. Personal use · Multi-source aggregation · Edge-powered APIs",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "image": "https://soluna-script.vercel.app/images/thumbnail.png",
+        "image": "https://raw.githubusercontent.com/EndOverdosing/Soluna-API/refs/heads/main/images/banner.png",
         "alt": "Soluna Project Screenshot",
         "title": "Soluna",
         "subtitle": "Keyless Script Hub",
@@ -150,28 +150,7 @@
         ]
     },
     {
-        "image": "https://camo.githubusercontent.com/0cbdc68d5f880ac77e567d55f4c0c9b860c5248891729e38998f9c9412735843/68747470733a2f2f6170706c6573636f6f702e6f72672f696d6167652f77616c6c7061706572732f6d61632f76696272616e742d73756e7365742d696e2d7468652d666f726573742d6d6f756e7461696e732d6c616e647363617065732d6e61747572652d386b2d746f702d72617465642d6d6f73742d646f776e6c6f616465642d667265652d646f776e6c6f61642d77616c6c7061706572732d666f722d6d6163626f6f6b2d70726f2d616e642d6d6163626f6f6b2d6169722d616e642d6d6963726f736f66742d77696e646f77732d6465736b746f702d7063732d346b2d30372d31322d323032342d313733333633383635342d68642d77616c6c70617065722e77656270",
-        "alt": "Youtube Video Scraper Project Screenshot",
-        "title": "Youtube Video Scraper",
-        "subtitle": "YouTube Video Info & Download API",
-        "description": "A simple Flask API to fetch YouTube video information and provide downloadable links. Includes a mechanism to bypass YouTube's rate-limiting and bot detection using browser cookies.",
-        "links": [
-            {
-                "href": "https://youtube-video-scraper.onrender.com/",
-                "text": "Live Site",
-                "icon": "fa-solid fa-arrow-up-right-from-square",
-                "class": "primary"
-            },
-            {
-                "href": "https://github.com/EndOverdosing/Youtube-Video-Scraper",
-                "text": "GitHub",
-                "icon": "fa-brands fa-github",
-                "class": "secondary"
-            }
-        ]
-    },
-    {
-        "image": "https://i0.wp.com/linkedinheaders.com/wp-content/uploads/2018/02/mountain-clouds-header.jpg?fit=1584%2C396&ssl=1",
+        "image": "https://images.unsplash.com/photo-1739675242031-cb6c3b076e4f?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8",
         "alt": "Soundcloak Project Screenshot",
         "title": "soundcloak",
         "subtitle": "SoundCloud Downloader",
