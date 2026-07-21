@@ -3,8 +3,7 @@
         "image": "https://vyla.pages.dev/assets/images/thumbnail.png",
         "alt": "Vyla Entertainment Project Screenshot",
         "title": "Vyla Entertainment",
-        "subtitle": "A unified entertainment ecosystem for streaming and media discovery. Personal use · Multi-source aggregation · Edge-powered APIs",
-        "description": "Vyla Entertainment is an integrated media system that connects multiple streaming providers through a single interface. It centralizes movies and TV shows by routing requests across distributed APIs and metadata sources.",
+        "description": "Vyla pulls movies and shows from a bunch of streaming providers into one place so you don't have to jump between apps",
         "links": [
             {
                 "href": "https://github.com/vyla-entertainment/",
@@ -18,8 +17,7 @@
         "image": "https://raw.githubusercontent.com/pyla-games/frontend/refs/heads/main/images/banner.png",
         "alt": "Pyla Screenshot",
         "title": "Pyla Games",
-        "subtitle": "Game Discovery & Download API",
-        "description": "Pyla Games - Modern game discovery powered by the Pyla Games API",
+        "description": "Pyla Games helps you find and download games through a simple API",
         "links": [
             {
                 "href": "https://github.com/orgs/pyla-games",
@@ -33,8 +31,7 @@
         "image": "https://raw.githubusercontent.com/vexa-intelligence/ai/refs/heads/main/public/assets/banner.png",
         "alt": "Vexa-AI Project Screenshot",
         "title": "Vexa-AI",
-        "subtitle": "Free REST API for text and image generation. No account, no API key, no setup.",
-        "description": "Vexa Intelligence is an AI system that connects multiple text and image generation models through a single interface. It automatically routes requests to the best available model based on speed, quality, and availability.",
+        "description": "Vexa is a free API for text and image generation no signup or key needed it just picks whichever model works best for your request",
         "links": [
             {
                 "href": "https://github.com/vexa-intelligence",
@@ -48,8 +45,7 @@
         "image": "https://raw.githubusercontent.com/EndOverdosing/Soluna-API/refs/heads/main/images/banner.png",
         "alt": "Soluna Project Screenshot",
         "title": "Soluna",
-        "subtitle": "Keyless Script Hub",
-        "description": "A central hub for over 20+ keyless scripts, providing easy access and a streamlined experience for users looking for various script utilities.",
+        "description": "Soluna is a hub with many keyless scripts all in one easy to browse spot",
         "links": [
             {
                 "href": "http://discord.gg/2hxKqA3b7b",
@@ -63,8 +59,7 @@
         "image": "https://raw.githubusercontent.com/EndOverdosing/Palyra/refs/heads/main/public/images/banner-rounded.png",
         "alt": "Palyra Project Screenshot",
         "title": "Palyra",
-        "subtitle": "Privacy-First P2P Messaging Platform",
-        "description": "A modern peer-to-peer messaging platform that combines end-to-end encrypted messaging, video calls, and server-based chat rooms. Built with privacy and security at its core.",
+        "description": "Palyra is a messaging app with encrypted chats video calls and chat rooms built with privacy in mind from the start",
         "links": [
             {
                 "href": "https://palyra.vercel.app/",
@@ -84,8 +79,7 @@
         "image": "https://raw.githubusercontent.com/EndOverdosing/Soundboard-API/refs/heads/main/public/assets/banner.png",
         "alt": "Soundboard API Project Screenshot",
         "title": "Soundboard API",
-        "subtitle": "Zero-Hardcoded REST API",
-        "description": "A zero-hardcoded REST API built on Cloudflare Pages Functions that dynamically sources all sound data from the genizy/soundboard GitHub repository.",
+        "description": "This API runs on Cloudflare Pages and pulls all its sound data straight from the genizy soundboard repo nothing is hardcoded",
         "links": [
             {
                 "href": "https://github.com/EndOverdosing/Soundboard-API",
@@ -105,8 +99,7 @@
         "image": "https://raw.githubusercontent.com/EndOverdosing/Cyron/refs/heads/main/static/assets/banner.png",
         "alt": "Cyron Project Screenshot",
         "title": "Cyron",
-        "subtitle": "Privacy-Focused Meta Search Engine",
-        "description": "A privacy-focused meta search engine API powered by SearX. Returns structured results across web, images, videos, news, music, files, social media, science, and IT — with full filtering support.",
+        "description": "Cyron is a privacy focused search API powered by SearX it covers web images videos news music files and more with full filtering",
         "links": [
             {
                 "href": "https://github.com/EndOverdosing/Cyron",
@@ -126,8 +119,7 @@
         "image": "https://ovala.pages.dev/images/banner.png",
         "alt": "Ovala Project Screenshot",
         "title": "Ovala",
-        "subtitle": "Sophisticated Web Proxy",
-        "description": "A sophisticated web proxy that allows users to bypass internet censorship and access blocked content freely. Built on the powerful Node Unblocker engine.",
+        "description": "Ovala is a web proxy that helps you get around internet blocks and reach content freely built on the Node Unblocker engine",
         "links": [
             {
                 "href": "https://ovala.pages.dev/",
@@ -153,8 +145,7 @@
         "image": "https://images.unsplash.com/photo-1739675242031-cb6c3b076e4f?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8",
         "alt": "Soundcloak Project Screenshot",
         "title": "soundcloak",
-        "subtitle": "SoundCloud Downloader",
-        "description": "A JSON REST API wrapper for soundcloak — a SoundCloud privacy frontend. Deploy it to Cloudflare Pages in minutes.",
+        "description": "A JSON API wrapper around soundcloak a SoundCloud privacy frontend deploy it to Cloudflare Pages in a few minutes",
         "links": [
             {
                 "href": "https://github.com/EndOverdosing/soundcloak",
@@ -168,8 +159,7 @@
         "image": "https://raw.githubusercontent.com/EndOverdosing/HTML.cafe-Discord-Webhook-Hunter/refs/heads/main/static/assets/banner.png",
         "alt": "HTML.cafe Discord Webhook Hunter",
         "title": "HTML.cafe Discord Webhook Hunter",
-        "subtitle": "Webhook Privacy Tool",
-        "description": "Tired of people on HTML.cafe logging you on their webhook without consent? Find and remove exposed webhooks before they're abused.",
+        "description": "Tired of people on HTML.cafe logging you through their webhook without asking this tool finds and removes exposed webhooks before they get abused",
         "links": [
             {
                 "href": "https://github.com/EndOverdosing/HTML.cafe-Discord-Webhook-Hunter",
