@@ -7,26 +7,45 @@
     <title>EndOverdosing</title>
     <meta name="description" content="Portfolio of EndOverdosing.">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/223568794?v=4">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="src/styling/index.css">
 </head>
 
 <body>
-    <h1 id="hero-title">I really got tired of the way my portfolio looked, so I've decided to strip most of it.</h1>
+    <div class="ascii-bg-wrap" aria-hidden="true">
+        <pre id="ascii-bg" class="ascii-bg"></pre>
+    </div>
 
-    <section id="projects">
-        <div id="projects-list"></div>
-    </section>
+    <div class="content">
+        <main>
+            <h1 class="title-ascii-frame" id="hero-title">
+                <pre class="title-ascii" aria-label="EndOverdosing"></pre>
+            </h1>
 
-    <section class="contact">
-        <p><a href="https://discordapp.com/users/1354949208360091775" target="_blank">Contact me</a></p>
-    </section>
+            <section class="projects" id="projects">
+                <div id="projects-list"></div>
+            </section>
+        </main>
 
-    <footer>
-        <a href="https://github.com/EndOverdosing" target="_blank">GitHub</a>
-        · © EndOverdosing
-    </footer>
+        <footer>
+            <div class="footer-ascii-frame">
+                <pre id="footer-ascii" class="footer-ascii" aria-label="EndOverdosing"></pre>
+            </div>
 
-    <script src="index.js"></script>
+            <p>
+                <a href="https://github.com/EndOverdosing" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+                · © EndOverdosing
+            </p>
+        </footer>
+    </div>
+
+    <script src="src/javascript/index.js"></script>
+    <script src="src/javascript/background.js"></script>
+    <script src="src/javascript/footer.js"></script>
+    <script src="src/javascript/title.js"></script>
+
+
 </body>
 
 </html>
